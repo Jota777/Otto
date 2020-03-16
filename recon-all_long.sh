@@ -10,8 +10,8 @@ echo "--- recon-all longitudinal start subject ${patid} at $(date) --- "
 cd ${STUDY_DIR}/${patid}
 pwd
 
-#create timepoint list, wählt er hier wirklich nur die tps aus, siehe Foto auf wa?
-list_tps=$(ls | grep -E "_[0-9]+")
+#create timepoint list
+list_tps=$(ls | grep -E "freesurfer_[0-9]+")
 
 for tps in ${list_tps}
 do
