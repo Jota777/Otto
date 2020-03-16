@@ -11,7 +11,7 @@ cd ${STUDY_DIR}/${patid}
 pwd
 
 #create timepoint list
-list_tps=$(ls | grep -E "freesurfer_[0-9]+")
+list_tps=$(ls | grep -E "_[0-9]+")
 
 for tps in ${list_tps}
 do
