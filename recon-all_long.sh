@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+#test edit
 #set variables
 patid=$1
 STUDY_DIR=/media/Daten1/Rasmussen
